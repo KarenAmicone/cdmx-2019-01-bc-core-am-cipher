@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+    <h1 id="tittle">Bienvenido a Top Secret</h1>
+    <img id="image" src="https://www.kidsemotion.com.mx/wp-content/uploads/2016/08/mensaje-secreto-620x350.jpg">
+    <p> En Top Secret puedes codificar un mensaje secreto para enviarlo a tus amigos </p>
+    <p> Nuestro código se hace por sustitución y está inspirado en el Cifrado César. Si quieres saber más al respecto
+      ingresa al siguiente link: <a href="https://bit.ly/2AfM4cS" target="_blank">Cifrado César</a></p>
+  </div>
+
+  <div>
+    <label for="offset">Escribe el número de código</label>
+    <input id="offset" type="text"/>
+
+    <label for="message">Escribe el mensaje que quieres codificar</label>
+    <input id="message" type="text"/>
+    <button id="botonM" type="submit">Codificar</button>
+    <button id="botonN" type="submit">Decodificar</button>
+    <p id="codific">...</p>
+  </div> 
+    
+  
+
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
