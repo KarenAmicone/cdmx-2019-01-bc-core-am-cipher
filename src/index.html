@@ -5,29 +5,39 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
 </head>
 
 <body>
   <div id="root">
-    <h1 id="tittle">Bienvenido a Top Secret</h1>
-    <img id="image" src="https://www.kidsemotion.com.mx/wp-content/uploads/2016/08/mensaje-secreto-620x350.jpg">
-    <p> En Top Secret puedes codificar un mensaje secreto para enviarlo a tus amigos </p>
-    <p> Nuestro código se hace por sustitución y está inspirado en el Cifrado César. Si quieres saber más al respecto
-      ingresa al siguiente link: <a href="https://bit.ly/2AfM4cS" target="_blank">Cifrado César</a></p>
+    <h1 id="tittle">Top Secret</h1>
+    <img class="reading" id="image" src="Reading_gadget.gif">
+    <p class="present">Top Secret es una app para crear y decifrar mensajes secretos por medio del <a href="https://bit.ly/2AfM4cS" target="_blank">Cifrado César</a>. Sólo sigue estos pasos:</p>
   </div>
 
-  <div>
-    <label for="offset">Escribe el número de código</label>
-    <input id="offset" type="text"/>
 
-    <label for="message">Escribe el mensaje que quieres codificar</label>
-    <input id="message" type="text"/>
-    <button id="botonM" type="submit">Codificar</button>
-    <button id="botonN" type="submit">Decodificar</button>
-    <p id="codific">...</p>
-  </div> 
-    
-  
+  <div class="codificacion">
+    <label for="offset">1. Escribe un número del 1 al 100:</label>
+    <input class= "text" id="offset" type="text" />
+    <br>
+    <br>
+    <label for="message">2. Escribe el mensaje que quieres codificar o decifrar:</label>
+    <input class= "text" id="message" type="text" />
+
+  <div id="botones">
+    <button class="button" id="botonM" type="submit" style="vertical-align:middle"><span>Codificar</span></button>
+    <button class="button" id="botonN" type="submit" style="vertical-align:middle"><span>Decifrar</span></button>
+  </div>
+
+  <div class="final">
+    <textarea id="codific">Aquí verás tu mensaje</textarea>
+  </div>
+
+</div>
+
+ 
 
 
   <script src="cipher.js"></script>

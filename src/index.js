@@ -3,7 +3,7 @@ botonEncode.addEventListener("click", function () {
   let mensajeSecreto = document.getElementById("message").value;
   let offsetCode = document.getElementById("offset").value;
   let codificado = window.cipher.encode(offsetCode, mensajeSecreto);
-  document.getElementById("codific").innerHTML = codificado;
+  document.getElementById("codific").innerHTML = `Tu código es: ${codificado}`;
 })
 
 const botonDecode = document.getElementById("botonN");
@@ -11,5 +11,5 @@ botonDecode.addEventListener("click", function () {
   let codigo = document.getElementById("message").value;
   let offsetDecode = document.getElementById("offset").value;
   let decodificado = window.cipher.decode(offsetDecode, codigo);
-  document.getElementById("codific").innerHTML = decodificado;
+  document.getElementById("codific").innerHTML = `El mensaje secreto es: ${decodificado}`;
 })
