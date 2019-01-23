@@ -1,3 +1,28 @@
+#Top Secret
+
+Top Secret es una app para niñas y niños en la que podrán codificar un mensaje secreto para sus amigas y amigos. El cifrado se hace por medio del Cifrado César, el cual es un método simple de codificación por sustitución.
+
+Está orientada a este grupo de personas porque son curiosas y buscan interactuar con sus amigas y amigos de forma divertida e innovadora. Además de que, en general, este grupo cuenta con esas características, el objetivo de esta herramienta es fomentar su creatividad e imaginación. 
+
+La definición del producto final 
+cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
+
+Quiénes son los principales usuarios de producto.
+Cuáles son los objetivos de estos usuarios en relación con tu producto.
+Cómo crees que el producto que estás creando está resolviendo sus problemas.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
