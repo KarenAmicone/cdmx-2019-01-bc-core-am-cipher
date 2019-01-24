@@ -40,7 +40,7 @@ entorno y las [reglas recomendadas (`"eslint:recommended"`)](https://eslint.org/
 ### Software necesario
 
 1. Tener un editor de texto como [Atom](https://atom.io/), [Visual Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com) o cualquier otro.
-2. Para ejecutar los comandos a continuación necesitarás una :shell: 
+2. Para ejecutar los comandos a continuación necesitarás una *shell* :shell: 
    Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS, ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git` también). 
    Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win). 
 3. Instalar [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
@@ -63,6 +63,8 @@ El proyecto se encuentra alojado en la página: [Cesar Cipher](https://karenamic
 
 ### Autores
 Karen Amicone
+
+
 [Contribuyentes](https://github.com/KarenAmicone/cdmx-2019-01-bc-core-am-cipher/graphs/contributors) 
 
 ## Diseño UX
