@@ -61,14 +61,21 @@ Las pruebas unitarias verifican que el elemento principal sea un objeto, que las
 
 El proyecto se encuentra alojado en la página: [Cesar Cipher](https://karenamicone.github.io/cdmx-2019-01-bc-core-am-cipher/src/)
 
-### Autores
+## Instrucciones para usuarios
+
+1. Ingresa a la página [Cesar Cipher](https://karenamicone.github.io/cdmx-2019-01-bc-core-am-cipher/src/).
+2. En el cuadro de texto *Escribe un número del 1 al 100*, elige un número del 1 al cien que será el desplazamiento con el que la app realizará el código. Por ejemplo, si elegiste un desplazamiento de 3, la A será sustituida por la D, la B por la E, la C por la F y así sucesivamente. 
+3. En el segundo cuadro de texto escribe el mensaje secreto que quieres codificar. Para la frase *Te quiero mucho*, con un desplazamiento de 3, el código será: *Wh txlhur pxfkr*.  
+4. Este código podrá ser descifrado al ingresar el mismo número que elegiste (en este ejemplo: *3*) en el primer cuadro de texto, y el código (en este ejemplo: *Wh txlhur pxfkr*) en el segundo cuadro, sólo que ahora darás click en el botón *Descifrar* y obtendrás *Te quiero mucho*.
+
+## Diseño UX
+La documentación del diseño UX puede consultarse en el siguiente link: [Diseño UX Cesar Cipher](https://docs.google.com/document/d/1eA3sjK16WoRj7Pie5-v7Ns9asqN7ZtfMy1Lf3lawXTk/edit#)
+
+## Autores
 Karen Amicone
 
 
 [Contribuyentes](https://github.com/KarenAmicone/cdmx-2019-01-bc-core-am-cipher/graphs/contributors) 
-
-## Diseño UX
-La documentación del diseño UX puede consultarse en el siguiente link: [Diseño UX Cesar Cipher](https://docs.google.com/document/d/1eA3sjK16WoRj7Pie5-v7Ns9asqN7ZtfMy1Lf3lawXTk/edit#)
 
 ## Agradecimientos
 Gracias a Laboratoria por hacer posible el desarrollo de este proyecto.
