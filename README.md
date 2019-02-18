@@ -69,7 +69,7 @@ El proyecto se encuentra alojado en la página: [Cesar Cipher](https://karenamic
 4. Este código podrá ser descifrado al ingresar el mismo número que elegiste (en este ejemplo: *3*) en el primer cuadro de texto, y el código (en este ejemplo: *Wh txlhur pxfkr*) en el segundo cuadro, sólo que ahora darás click en el botón *Descifrar* y obtendrás *Te quiero mucho*.
 
 ## Diseño UX
-La documentación del diseño UX puede consultarse en el siguiente link: [Diseño UX Cesar Cipher](https://docs.google.com/document/d/1eA3sjK16WoRj7Pie5-v7Ns9asqN7ZtfMy1Lf3lawXTk/edit#)
+La documentación del diseño UX puede consultarse en el siguiente link: [Diseño UX Cesar Cipher](https://docs.google.com/document/d/1eA3sjK16WoRj7Pie5-v7Ns9asqN7ZtfMy1Lf3lawXTk/edit?usp=sharing)
 
 ## Autores
 Karen Amicone
